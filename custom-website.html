@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Website</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="index.html">Portfolio<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+        <select name="language" id="lang">
+          <option value="en">En</option>
+          <option value="ar">Ar</option>
+        </select>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home.</a>
+          </li>
+
+          <li>
+            <a href="index.html#about" class="navbar-link">About.</a>
+          </li>
+
+          <li>
+            <a href="index.html#skills" class="navbar-link">Skills.</a>
+          </li>
+
+          <li>
+            <a href="index.html#works" class="navbar-link">Works.</a>
+          </li>
+
+          <li>
+            <a href="index.html#contact" class="navbar-link">Contact.</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <article class="container">
+    <section class="project" id="works">
+
+        <ul class="project-list">
+
+          <li>
+            <div class="project-content section-content">
+
+              <p class="section-subtitle">Recent Works</p>
+
+              <h2 class="h3 section-title">Wordpress Sites Done By Me!</h2>
+
+              <p class="section-text">
+                I develop the best quality website that serves for the long-term. Well-documented, clean, easy and
+                elegant interface
+                helps any non-technical clients.
+              </p>
+
+            </div>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/works/wordpress-wedsites/projects-1.jpeg" class="w-100" alt="Gallivent Travel Website">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Gallivent Travel Website</h3>
+
+                <time class="publish-date" datetime="2023-04">April 2023</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/works/wordpress-wedsites/projects-2.jpeg" class="w-100" alt="Talims LMS Website">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Talims LMS Website</h3>
+
+                <time class="publish-date" datetime="2023-04">April 2023</time>
+              </div>
+
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+    </article>
+  </main>
+ <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+          Portfolio<span>.</span>
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2023 <a href="#">feedofmri</a>. All rights reserved
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
